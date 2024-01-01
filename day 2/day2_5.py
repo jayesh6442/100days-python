@@ -13,3 +13,4 @@ per_person= total_bill/person
 
 final_amount = round(per_person,2)
 print(final_amount)
+
