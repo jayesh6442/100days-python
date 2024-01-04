@@ -24,10 +24,10 @@ else:
 
 if add_paperoni=="y":
     if size =="s":
-        bill +=2
+        bill +=5
     else:
-        bill +=2
+        bill +=10
 if extra_chees =="y":
     if size =="s":
-        bill+=2
+        bill+=10
 print(f"your totoal bill is {bill}")

@@ -14,4 +14,6 @@ for student in student_hight:
 print(no_of_student)
 
 
-avarage_hight =round(total_hight/no_of_student)
+avarage_hight = round(total_hight/no_of_student)
+
+print(f"average hight is {avarage_hight}")

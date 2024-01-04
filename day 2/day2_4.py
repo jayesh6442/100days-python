@@ -1,22 +1,4 @@
 #if we leave till 90 than find out how many day year and month we wll leave
-
-
-
-
-
-# till=90
-# age = input("enter the age ")
-# result=till-int(age)
-# print("you have "+str(result))
-
-# month = till*12
-# print("you have month "+str(month))
-
-# days = till*365
-# print("you have "+str(days))
-
-
-
 age = input("enter the age ")
 age_as_int = int(age)
 
