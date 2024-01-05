@@ -1,3 +1,13 @@
 #function in python
 
-# you skipped it 
+def name():
+    print("hello worw")
+name()
+
+
+def surname():
+    print("jane lowde")
+
+surname()
+
+
