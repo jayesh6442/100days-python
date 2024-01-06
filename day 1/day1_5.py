@@ -1,14 +1,11 @@
-# variable exercise 
-print("enter the a")
+print("enter the values")
 
-a = input()
-print ("enter the b")
-b = input()
+a = input("enter the a")
+b = input("enter the b")
 
-print("a is: "+a)
-print("b is: "+b)
-c=a
-a=b
-b=c
-print("after the change: "+a)
-print("after the change: "+b)
+c = a
+a = b
+b = c
+
+print(a)
+print(b)

@@ -1,7 +1,6 @@
-print("welcome to band name generetor")
+print("hello and welcome to band name generator")
 
-city = input("which city that you grow in: ")
+city =  input("enter the name of city")
+pet =  input("enter the name of pet")
 
-pet = input("enter the pet name: ")
-
-print ("band name is  "+city+" "+ pet)
+print(f"the band name is ${city + pet} ")

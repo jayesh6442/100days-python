@@ -1,3 +1,7 @@
 #data type of python
 
-print("hello"[0])
+
+name = 3435
+
+print(len(name))
+

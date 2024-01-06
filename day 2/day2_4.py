@@ -1,11 +1,9 @@
-#if we leave till 90 than find out how many day year and month we wll leave
-age = input("enter the age ")
-age_as_int = int(age)
+age = int(input("enter the age"))
 
-year_remaining = 90-age_as_int
+remaining_age = 90 - age
 
-day_remaining = year_remaining*365
-week_remaining = year_remaining*52
-month_remaining = year_remaining * 12
+remaining_day = remaining_age * 365
+remaining_weeks = remaining_age * 52
+remaining_month = remaining_age * 12
 
-print(f"you have {month_remaining} month ,{week_remaining } weeks {day_remaining} days")
+print(f"you have {remaining_day} day {remaining_weeks} weeks   and {remaining_month} months")

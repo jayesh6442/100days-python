@@ -4,5 +4,7 @@ print("eg print ")
 
 
 name = input("what is your name: d")
-print ("your name is " +name)\
+print ("your name is " +name)
 
+
+name = input("enter the name and welcome to youtube channel and we wiil learn the python")
