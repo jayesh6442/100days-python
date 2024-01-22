@@ -10,4 +10,4 @@ else:
 
 
 
-#find error in code base and bugs in code and make the code correct so it can execute proerly   
+#find error in code base and bugs in code and make the code correct so it can execute properly   

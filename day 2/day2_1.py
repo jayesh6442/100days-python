@@ -3,5 +3,11 @@
 
 name = 3435
 
-print(len(name))
 
+
+nub  = 324
+print(type(nub))
+
+print("hello"[0])
+
+print( 1+34 )

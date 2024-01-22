@@ -1,0 +1,1 @@
+#talk about the scope of variable and global scope and local scope

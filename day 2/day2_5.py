@@ -6,7 +6,7 @@ tip = int(input("enter the tip amont in persentage"))
 
 person = int(input("enter how many people will split bill"))
 
-final_bill = tip /100 * amount +amount
+final_bill = tip /100 * amount + amount
 
 per_person=  final_bill / person
 
