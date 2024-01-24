@@ -16,3 +16,12 @@ print("jaeysh" + " " "sarvaiya")
 
 print("ente the name")
 
+print("the nama is khan")
+print('print("the name is khan")')
+
+print("jayesh "+ " sarvaiya")
+
+name = input("enter the name: ")
+print("your name is"+ name)
+
+print("hello  "+ input("what is your name: "))
