@@ -27,4 +27,3 @@ scissors = '''
 ---.__(___)
 '''
 game_images = [rock, paper, scissors]
-5

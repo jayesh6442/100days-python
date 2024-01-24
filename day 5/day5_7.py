@@ -9,23 +9,29 @@ numbers_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 symbols_list = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~']
 
+password= []
 
-character = int(input("enter the lenght of password\n"))
-number = int(input("enter the number you want\n"))
-symbols = int(input("enter the symbol you want\n"))
-password = ""
+ch = int(input("enter the number of char: \n"))
+number = int(input("enter the number of number: \n"))
+symbol = int(input("enter the number of symbol: \n"))
 
-for _ in range(character):
-    password += random.choice(alphabet_list)
-
-for _ in range(number):
+for char in range (1,ch+1):
+    password+= random.choice(alphabet_list)
+for char in range (1,number+1):
     password += random.choice(numbers_list)
-
-for _ in range(symbols):
+for char in range (1,symbol+1):
     password += random.choice(symbols_list)
+#easy lavel
+print(password)
 
-# Shuffle the password to make the order random
-password_list = list(password)
-random.shuffle(password_list)
-password = ''.join(password_list)
-print("Generated Password:", password)
+#hard level
+
+random.shuffle(password)
+print(password)
+
+strinpassword = ''
+
+for i in password:
+    strinpassword +=i
+
+print(strinpassword)
