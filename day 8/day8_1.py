@@ -18,3 +18,15 @@ gret_with("jayesh","sarvaiya")
 def name():
     print("name")
 name()
+
+def priname():
+    na = input("enter the name: ")
+    print(f"the name is {na}")
+
+priname()
+
+def takename():
+    name = input("enter the name: ")
+    print(name)
+
+takename()

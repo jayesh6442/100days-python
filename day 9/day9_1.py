@@ -5,3 +5,6 @@ list_of_dictionary = {
     "error":"not good code"
 
 }
+
+
+print(list_of_dictionary)
