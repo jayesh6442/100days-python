@@ -9,12 +9,13 @@ def high(bidding_record):
             winner=bidr
     print(f'the winner is {winner} with bid of {highest_bit}' )
 while not bidding_finished: 
-    name = input("enter the name")
-    prise = int(input("enter the bid"))
+    name = input("enter the name: ")
+    prise = int(input("enter the bid: "))
     bid[name]=prise
     should_continue = input("are ther any more bids\n")
     if should_continue =="no":
         bidding_finished =  True 
         high(bid)
     elif should_continue =="yes":
-        print("jsdaf")
+        bidding_finished==False
+    

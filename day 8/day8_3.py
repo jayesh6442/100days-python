@@ -8,7 +8,6 @@ def prime_np(number):
         print("prime")
     else:
         print("not prime")
-
 user_no = int(input("enter the no: "))
 result = prime_np(user_no)        
 print(result)

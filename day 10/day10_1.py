@@ -12,7 +12,6 @@ def divide(x, y):
         return x / y
     else:
         return "Cannot divide by zero"
-
 def calculator():
     print("Simple Calculator App")
     print("Operations:")
@@ -20,12 +19,9 @@ def calculator():
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
-
     choice = input("Enter choice (1/2/3/4): ")
-
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
-
     if choice == '1':
         result = add(num1, num2)
         print(f"{num1} + {num2} = {result}")
@@ -40,6 +36,3 @@ def calculator():
         print(f"{num1} / {num2} = {result}")
     else:
         print("Invalid input. Please enter a valid choice.")
-
-if __name__ == "__main__":
-    calculator()

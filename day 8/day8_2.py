@@ -6,6 +6,4 @@ width = int(input("enter the widthe: "))
 def paint(height,width):
     required_paint = height * width /5
     return required_paint
-
-
 print(paint(height=height,width=width))

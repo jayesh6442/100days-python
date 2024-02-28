@@ -12,3 +12,6 @@ print(len(fname + lname))
 
 
 #variable and many more things to learn in this module and we can master it
+#Naming convention in python is different than other language and we can learn it easyly with little practice
+
+#final project was band name genertator and we made it in little time

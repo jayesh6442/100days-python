@@ -9,5 +9,5 @@ student_grade={
 student_grade['nana'] = "hello and welcome to python programming"
 
 for key in student_grade:
-    print(key)
-    print(student_grade[key])
+    print(key , student_grade[key])
+    
