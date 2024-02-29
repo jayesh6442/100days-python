@@ -1,4 +1,9 @@
-import random 
+import random
 
-randon_int = random.randint(1,10)
-print(randon_int)
+
+choise = random.randint(0,1)
+
+if choise == 0:
+    print("Heads")
+else:
+    print("Tails")
