@@ -57,4 +57,39 @@
 #     print("what is",x)
 # fu()
 
+# print("new chapter ")
+
+
+# a= "hello"
+# print(a)
+# rev = a[::-1]
+# print(rev)
+
+# txt ="we are in the python bootcamp"
+# if "jana" not in txt:
+#     print("nahi he")
+# else:
+#     print(" he bhai he")
+# print("enter the srting below")
+# st = input("enter the srting: ")
+# game_chalu= True
+# while game_chalu:
+#     find = input("enter what you want to find: ")
+#     if find not in st:
+#         print("nahi he bhai")
+#     else:
+#         print("he bhai he")
+#     off = input("do you want to exit: ")
+#     if off =="no":
+#         game_chalu = True
+#     elif off =="yes":
+#         game_chalu =False
+
+
 print("new chapter ")
+b = "jayesh"
+
+a = "hello, word {}"
+print(a.split(","))
+
+print(a.format(b))
