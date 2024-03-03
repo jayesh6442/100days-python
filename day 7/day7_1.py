@@ -1,20 +1,23 @@
 import random
-random_word =["jayesh","sarvaiya","hangman"]
+word_list = ["jayesh","viral","savan"]
+word=random.choice(word_list)
+print(word)
 
+blanck=[]
+for _ in range(len(word)):
+    blanck+="_"
+print(blanck)
 
-the_word = random.choice(random_word)
-print(the_word)
-blank =''
-for _ in range(len(the_word)):
-    
-    blank+="_, "
-print(blank)
+end_of_game  = False
 
-user_input= input("enter the geuss: ")
-
-
-
-
-for letter in the_word:
-    if letter==the_word:
-        print("right")
+while not end_of_game:
+    guess = input("Enter the word: ").lower()
+    for position in range(len(word)):
+        letter = word[position]
+        if letter == guess:
+            blanck[position] = letter
+   
+    print(blanck)
+    if "_" not in blanck:
+        end_of_game= True
+print("you win")

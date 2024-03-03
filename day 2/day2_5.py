@@ -1,15 +1,11 @@
-print("welcome to tip calculator")
+print("welcome to the tip calculator")
 
-amount = float(input("enter the total amount of bill"))
+total_bill = float(input("Enter the Total bill: "))
+tip = int(input("Enter the Total tip in % 10,12,15: "))
+person = int(input("enter how many people will split: "))
 
-tip = int(input("enter the tip amont in persentage"))
+bill_with_tip = tip /100 * total_bill + total_bill
 
-person = int(input("enter how many people will split bill"))
+print("per person bill: ",bill_with_tip/person)
 
-final_bill = tip /100 * amount + amount
 
-per_person=  final_bill / person
-
-final_amount = "{:.2f}".format(per_person)
-
-print(f"per person bill is {final_amount}")

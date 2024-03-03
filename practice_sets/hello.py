@@ -86,10 +86,29 @@
 #         game_chalu =False
 
 
-print("new chapter ")
-b = "jayesh"
+# print("new chapter ")
+# b = "jayesh"
 
-a = "hello, word {}"
-print(a.split(","))
+# a = "hello, word {}"
+# print(a.split(","))
 
-print(a.format(b))
+# print(a.format(b))
+# this is python string format we need to look into it more 
+
+
+print("new cap")
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+new_str = txt.capitalize()
+print(new_str)
+
+
+nane = ["jayesh","viral","savan"]
+print(nane)
+
+
+class student:
+    def __init__(self) -> None:
+        pass
+
